@@ -15,3 +15,11 @@ export function setGoals(goals) {
     }
     return action;
 }
+
+export function setCompleted(completedGoals) {
+    const action = {
+        type: constants.SET_COMPLETED,
+        completedGoals
+    }
+    return action;
+}
